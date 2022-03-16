@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dyżury fundacji Na Ratunek Bezdomniakom</title>
-  <link rel="stylesheet" type="text/css" href="../css/style_main.css" />
   <link rel="stylesheet" type="text/css" href="../css/style_cats.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style_main.css" />
 </head>
 
 <body>
@@ -20,9 +20,9 @@
         <a href="./index.html">Strona główna</a>
         <a href="./cats.html">Koty</a>
         <a href="./tasks.html">Zadania</a>
-        <a href="#">Leki</a>
-        <a href="#">Dyżur uwagi</a>
-        <a href="#">Jedzenie</a>
+        <a href="./medicines.html">Leki</a>
+        <a href="./remarks.html">Dyżur uwagi</a>
+        <a href="./appetite.html">Jedzenie</a>
       </div>
         <div class="hamburger">
           <span></span>
@@ -32,8 +32,64 @@
     </nav>
   </header>
   <main>
+    <div class="container_places">
+      <p class="small_cr">Mała kociarnia</p>
+      <p class="big_cr">Duża kociarnia</p>
+      <p class="storage_cr">Magazynek</p>
+    </div>
+    <div class="container_room">
+      <div id="small_room">
+        <h1>Mała kociarnia</h1>
+        <div class="table_cats">
+          <div class="table_header">ZDJĘCIE</div>
+          <div class="table_header">IMIĘ</div>
+          <div class="table_header">INFORMACJE</div>
+          <div>
+            <img src="../img/chrupka.jpg" alt="Chrupka">
+          </div>
+          <div>Chrupka</div>
+          <div>Słodki pulpet</div>
+        </div>
+      </div>
+      <div id="big_room">
+        <h1>Duża kociarnia</h1>
+        <div class="table_cats">
+          <div class="table_header">ZDJĘCIE</div>
+          <div class="table_header">IMIĘ</div>
+          <div class="table_header">INFORMACJE</div>
+          <div>
+            <img src="../img/czarek.jpg" alt="Czarek">
+          </div>
+          <div>Czarek</div>
+          <div>Wkurzony pysio</div>
+          <div>
+            <img src="../img/gargi.jpg" alt="Gargamel">
+          </div>
+          <div>Gargamel</div>
+          <div>
+            Złapany w Suchym Lesie<br>
+            Jest luzem <br>
+            Wciąż syczy, ale pracujemy nad nim
+          </div>
+        </div>
+      </div>
+      <div id="storage_room">
+        <h1>Magazynek</h1>
+        <div class="table_cats">
+          <div class="table_header">ZDJĘCIE</div>
+          <div class="table_header">IMIĘ</div>
+          <div class="table_header">INFORMACJE</div>
+          <div>
+            <img src="../img/klakier.jpg" alt="Klakier">
+          </div>
+          <div>Klakier</div>
+          <div>Rudy staruszek</div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <script src="../js/main.js"></script>
+  <script src="../js/cats.js"></script>
 </body>
 </html>

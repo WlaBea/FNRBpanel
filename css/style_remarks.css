@@ -1,0 +1,11 @@
+.remark {
+    display: flex;
+    height: 300px;
+    margin: 10px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.remarks_text {
+    width: 100%;
+}
