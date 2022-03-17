@@ -5,24 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dyżury fundacji Na Ratunek Bezdomniakom</title>
-  <!-- 1-->
-  <link rel="stylesheet" type="text/css" href="https://github.com/WlaBea/FNRBpanel/blob/e058c32cc2d57d24ccfdb552a3abd2a9dbbdf918/css/style_main.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style_main.css">
+  <!-- 1 -->
+  <link rel="stylesheet" type="text/css" href="https://wlabea.github.io/FNRBpanel/css/style_main.css" />
 </head>
 
 <body>
     <header>
     
-        <nav>
+        <nav id="nav_id">
           <div class="logo">
             <h1>Na Ratunek Bezdomniakom</h1>
           </div>
           <div class="menu">
             <a href="./index.html">Strona główna</a>
-            <a href="./cats.html">Koty</a>
-            <a href="./tasks.html">Zadania</a>
-            <a href="./medicines.html">Leki</a>
-            <a href="./remarks.html">Dyżur uwagi</a>
-            <a href="./appetite.html">Jedzenie</a>
+            <a href="./docs/cats.html">Koty</a>
+            <a href="./docs/tasks.html">Zadania</a>
+            <a href="./docs/medicines.html">Leki</a>
+            <a href="./docs/remarks.html">Dyżur uwagi</a>
+            <a href="./docs/appetite.html">Jedzenie</a>
           </div>
             <div class="hamburger">
               <span></span>
@@ -30,9 +31,9 @@
               <span></span>
             </div>
         </nav>
-        <div class="login_page">
+        <div class="login_page" id="login_page_id">
             <div class="loginbox">
-                <img src="../img/logo_fnrb.jpg" class="logo_png">
+                <img src="./img/logo_fnrb.jpg" class="logo_png">
                 <div class="form_login">
                     <h1>Zaloguj się</h1>
                     <form>
@@ -40,14 +41,14 @@
                         <input type="text" name="" placeholder="Wpisz nazwę użytkownika">
                         <p>Hasło</p>
                         <input type="password" name="" placeholder="Wpisz hasło">
-                        <input type="submit" name="" value="Zaloguj">
+                        <input type="button" id="login_button" name="" value="Zaloguj">
                     </form>
                 </div>
             </div>
         </div>
       </header>
       <main>
-        <article class="main_page">
+        <article class="main_page" id="main_page_id">
           Zacznij dyżur od sprawdzenia zakładki LEKI.<br>
           Szczegółowe informacje o konkretnym kocie masz w zakładce KOTY.<br>
           Wszystkie zadania, które musisz wykonać na dyżurze są wypisane w zakładce ZADANIA<br>
@@ -55,6 +56,6 @@
         </article>
       </main>
     
-      <script src="../js/main.js"></script>
+      <script src="./js/main.js"></script>
 </body>
 </html>
