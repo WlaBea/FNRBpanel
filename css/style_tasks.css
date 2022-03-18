@@ -1,0 +1,38 @@
+.tasks_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks_list {
+    list-style: none;
+    min-width: 40%;
+}
+
+.todo {
+    margin: 0.5rem;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.todo li {
+    padding: 0.5rem;
+}
+
+.complete_btn {    
+    border: none;
+    padding: 0.5rem;
+    background: rgb(113, 182, 113);
+    cursor: pointer;
+}
+
+.fa-check {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.4;
+}

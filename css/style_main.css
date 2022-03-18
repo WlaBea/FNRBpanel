@@ -27,7 +27,7 @@ nav {
     top: 8vh;
     position: absolute;
     width: 50%;
-    height: 92vh;
+    height: 100vh;
     background-color: rgba(58, 196, 92, 0.98);
     z-index: 100;
     transition: 0.5s;
