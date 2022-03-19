@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dyżury fundacji Na Ratunek Bezdomniakom</title>
   <link rel="stylesheet" type="text/css" href="../css/style_main.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style_medicines.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -32,9 +34,103 @@
         </nav>
       </header>
       <main>
-        
+        <div class="container_places">
+          <p class="small_cr">Mała kociarnia</p>
+          <p class="big_cr">Duża kociarnia</p>
+          <p class="storage_cr">Magazynek</p>
+        </div>
+        <div class="container_data">
+          <div class="today_date"></div>          
+          <p class="morning_btn">Rano</p>
+          <p class="afternoon_btn">Wieczór</p>
+        </div>
+        <div id="small_room" class="room">
+          <h1>Mała kociarnia</h1>
+          <div class="table_cats">
+            <div class="cat_name">Ciastek</div>
+            <ul class="medicine_list">
+              <div class="medicine morning">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+              <div class="medicine morning">
+                <li class="medicine_item">Lek 2 30g 0,5 tabletki</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+            </ul>
+            <div class="cat_name">Tami</div>
+            <ul class="medicine_list">
+              <div class="medicine morning">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+              <div class="medicine afternoon">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+            </ul>
+            <div class="cat_name">Ziutek</div>
+            <ul class="medicine_list">
+              <div class="medicine afternoon">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+              <div class="medicine afternoon">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div id="big_room" class="room">
+          <h1>Duża kociarnia</h1>
+          <div class="table_cats">
+            <div class="cat_name">Gapcio</div>
+            <ul class="medicine_list">
+              <div class="medicine afternoon">
+                <li class="medicine_item">Lek 3 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+              <div class="medicine afternoon">
+                <li class="medicine_item">Lek 4 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+            </ul>
+            <div class="cat_name">Puchatek</div>
+            <ul class="medicine_list">
+              <div class="medicine morning">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+              <div class="medicine afternoon">
+                <li class="medicine_item">Lek 3 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+            </ul>
+            <div class="cat_name">Pączek</div>
+            <ul class="medicine_list">
+              <div class="medicine morning">
+                <li class="medicine_item">Lek 1 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+              <div class="medicine morning">
+                <li class="medicine_item">Lek 4 30g 1 tabletka</li>
+                <button type="button" class="complete_btn"><i class="fas fa-check"></i></button>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div id="storage_room" class="room">
+          <h1>Magazynek</h1>
+          <div class="table_cats">
+            <div class="cat_name">Klakier</div>
+            <div class="cat_name">Emilka</div>
+            <div class="cat_name">Bułka</div>
+          </div>
+        </div>
       </main>
     
       <script src="../js/main.js"></script>
+      <script src="../js/medicines.js"></script>
 </body>
 </html>
