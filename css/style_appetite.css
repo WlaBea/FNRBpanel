@@ -1,0 +1,19 @@
+.name {
+    background-color: aqua;
+}
+
+.before {
+    background-color: rgb(153, 153, 189);
+}
+
+.food {
+    background-color: rgb(204, 183, 145);
+}
+
+.remarks {
+    background-color: rgb(223, 151, 219);
+}
+
+.cat_item {
+    margin: 10px;
+}
