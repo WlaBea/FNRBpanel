@@ -2,20 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    scroll-padding-top: 9vh;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 header {
-    display: grid;
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 /*----- Navbar -------*/
 nav {
-    /*display: none;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,11 +22,11 @@ nav {
 }
 
 .menu {
-    top: 8vh;
+    top: 7vh;
     position: fixed;
     width: 50%;
     height: 100vh;
-    background-color: rgba(58, 196, 92, 0.98);
+    background-color: inherit;
     z-index: 100;
     transition: 0.5s;
     display: flex;
@@ -74,14 +72,17 @@ nav {
     transform: translate(-5px, -6px) rotate(45deg);
 }
 /*----- Navbar -------*/
+.main_class {
+    padding-top: 10vh;
+}
 
 .main_page {
     padding: 15px;
     margin: 10px;
+    margin-top: 0;
     border: 5px solid rgb(224, 119, 77);
     text-align: center;
     display: grid;
-    /*display: none;*/
 }
 
 .login_page {
